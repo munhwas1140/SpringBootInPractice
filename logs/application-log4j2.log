@@ -1,0 +1,60 @@
+2023-12-07 18:04:30.236 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : Starting SpringbootinpracticeApplication using Java 17.0.9 with PID 98829 (/Users/w/Downloads/springbootinpractice/target/classes started by w in /Users/w/Downloads/springbootinpractice)
+2023-12-07 18:04:30.239 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-12-07 18:04:30.719 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-07 18:04:30.720 [ INFO] [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-12-07 18:04:30.720 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-07 18:04:30.738 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-12-07 18:04:31.012 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-12-07 18:04:31.027 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : Started SpringbootinpracticeApplication in 0.969 seconds (process running for 1.37)
+2023-12-07 18:04:31.029 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : CourseTrackerApplication CommandLineRunner has executed
+2023-12-07 18:04:31.029 [ INFO] [  restartedMain] c.s.c.MyCommandLineRunner                : MyCommandLineRunner executed as a Spring Component
+2023-12-07 18:04:31.029 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : CommandLineRunner executed as a bean definition with 0 arguments
+2023-12-07 18:04:31.030 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : CourseTrackerApplication started successfully with Log4j2 configuration
+2023-12-07 18:04:31.467 [ INFO] [on(3)-127.0.0.1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 18:04:31.467 [ INFO] [on(3)-127.0.0.1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-12-07 18:04:31.468 [ INFO] [on(3)-127.0.0.1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-12-07 18:04:41.169 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : Starting SpringbootinpracticeApplication using Java 17.0.9 with PID 98943 (/Users/w/Downloads/springbootinpractice/target/classes started by w in /Users/w/Downloads/springbootinpractice)
+2023-12-07 18:04:41.171 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-12-07 18:04:41.639 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-07 18:04:41.639 [ INFO] [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-12-07 18:04:41.640 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-07 18:04:41.656 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-12-07 18:04:41.909 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-12-07 18:04:41.925 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : Started SpringbootinpracticeApplication in 0.948 seconds (process running for 1.409)
+2023-12-07 18:04:41.928 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : CourseTrackerApplication CommandLineRunner has executed
+2023-12-07 18:04:41.928 [ INFO] [  restartedMain] c.s.c.MyCommandLineRunner                : MyCommandLineRunner executed as a Spring Component
+2023-12-07 18:04:41.928 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : CommandLineRunner executed as a bean definition with 0 arguments
+2023-12-07 18:04:41.929 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : CourseTrackerApplication started successfully with Log4j2 configuration
+2023-12-07 18:04:42.250 [ INFO] [on(3)-127.0.0.1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 18:04:42.250 [ INFO] [on(3)-127.0.0.1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-12-07 18:04:42.251 [ INFO] [on(3)-127.0.0.1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-12-07 18:07:15.339 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : Starting SpringbootinpracticeApplication using Java 17.0.9 with PID 99622 (/Users/w/Downloads/springbootinpractice/target/classes started by w in /Users/w/Downloads/springbootinpractice)
+2023-12-07 18:07:15.344 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-12-07 18:07:15.849 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-07 18:07:15.850 [ INFO] [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-12-07 18:07:15.850 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-07 18:07:15.870 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-12-07 18:07:16.138 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-12-07 18:07:16.153 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : Started SpringbootinpracticeApplication in 1.006 seconds (process running for 1.425)
+2023-12-07 18:07:16.155 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : CourseTrackerApplication CommandLineRunner has executed
+2023-12-07 18:07:16.156 [ INFO] [  restartedMain] c.s.c.MyCommandLineRunner                : MyCommandLineRunner executed as a Spring Component
+2023-12-07 18:07:16.156 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : CommandLineRunner executed as a bean definition with 0 arguments
+2023-12-07 18:07:16.156 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : CourseTrackerApplication started successfully with Log4j2 configuration
+2023-12-07 18:07:16.523 [ INFO] [on(2)-127.0.0.1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 18:07:16.523 [ INFO] [on(2)-127.0.0.1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-12-07 18:07:16.524 [ INFO] [on(2)-127.0.0.1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-12-07 18:07:26.065 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : Starting SpringbootinpracticeApplication using Java 17.0.9 with PID 99730 (/Users/w/Downloads/springbootinpractice/target/classes started by w in /Users/w/Downloads/springbootinpractice)
+2023-12-07 18:07:26.068 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-12-07 18:07:26.633 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-07 18:07:26.634 [ INFO] [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-12-07 18:07:26.634 [ INFO] [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-07 18:07:26.650 [ INFO] [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-12-07 18:07:26.904 [ INFO] [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-12-07 18:07:26.919 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : Started SpringbootinpracticeApplication in 1.042 seconds (process running for 1.393)
+2023-12-07 18:07:26.922 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : CourseTrackerApplication CommandLineRunner has executed
+2023-12-07 18:07:26.922 [ INFO] [  restartedMain] c.s.c.MyCommandLineRunner                : MyCommandLineRunner executed as a Spring Component
+2023-12-07 18:07:26.922 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : CommandLineRunner executed as a bean definition with 0 arguments
+2023-12-07 18:07:26.922 [ INFO] [  restartedMain] c.s.SpringbootinpracticeApplication      : CourseTrackerApplication started successfully with Log4j2 configuration
+2023-12-07 18:07:27.258 [ INFO] [on(1)-127.0.0.1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 18:07:27.258 [ INFO] [on(1)-127.0.0.1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-12-07 18:07:27.259 [ INFO] [on(1)-127.0.0.1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
