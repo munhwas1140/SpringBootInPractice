@@ -6,26 +6,20 @@ import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import lombok.*;
 
-@Getter @Setter
+import java.util.HashSet;
+import java.util.Objects;
+import java.util.Set;
+
 @Builder
 @AllArgsConstructor
-@Entity
-@NoArgsConstructor
+@Entity(name = "COURSES")
 @Table(name = "COURSES")
-@EqualsAndHashCode
-@NamedQueries({
-        @NamedQuery(name = "Course.findAllByCategoryAndRating",
-        query = "select c from Course c where c.category=?1 and c.rating=?2"),
-        @NamedQuery(name = "Course.findAllByRating",
-        query = "select c from Course c where c.rating=?1")
-})
-// 네임드쿼리는 비즈니스 도메인에 클래스에 본직적으로 필요하지 않은 저장/조회 관련 정보를 추가한다는 단점이 있다.
-// 비즈니스 도메인 클래스와 데이터 저장/조회가 강하게 결합한다.
 public class Course {
+
     @Id
     @Column(name = "ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private long id;
 
     @Column(name = "NAME")
     private String name;
@@ -33,19 +27,91 @@ public class Course {
     @Column(name = "CATEGORY")
     private String category;
 
-
-    @Min(value = 1, message = "A course should have a minimum of 1 rating")
-    @Max(value = 5, message = "A course should have a maximum of 5 rating")
     @Column(name = "RATING")
     private int rating;
 
     @Column(name = "DESCRIPTION")
     private String description;
 
+    @ManyToMany(mappedBy = "courses")
+    private Set<Author> authors = new HashSet<>();
+
+
+    public Course() {}
+
     public Course(String name, String category, int rating, String description) {
         this.name = name;
         this.category = category;
         this.rating = rating;
         this.description = description;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public int getRating() {
+        return rating;
+    }
+
+    public void setRating(int rating) {
+        this.rating = rating;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Set<Author> getAuthors() {
+        return authors;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Course)) return false;
+        Course course = (Course) o;
+        return Objects.equals(name, course.name) &&
+                Objects.equals(category, course.category);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, category);
+    }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", category='" + category + '\'' +
+                ", rating=" + rating +
+                ", description='" + description + '\'' +
+                '}';
     }
 }

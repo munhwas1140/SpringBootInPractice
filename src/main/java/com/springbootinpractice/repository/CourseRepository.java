@@ -1,5 +1,6 @@
 package com.springbootinpractice.repository;
 
+import com.springbootinpractice.dto.AuthorCourseDto;
 import com.springbootinpractice.model.Course;
 import com.springbootinpractice.projection.DescriptionOnly;
 import jakarta.transaction.Transactional;
